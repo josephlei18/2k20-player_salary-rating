@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# 2k20 Player Rating vs Salary
 
-You can use the [editor on GitHub](https://github.com/josephlei18/2k20-player_salary-rating/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+by Joseph Lei
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This data on NBA players in the game '2k20' was obtained from kaggle [2k20 data from kaggle.com](https://www.kaggle.com/isaienkov/nba2k20-player-dataset). The data included full names of players, 2k20 in game skill rating, salary per year in dollars, basketball position, draft pick round number, and more. 
 
-### Markdown
+TODO: Put visualization here
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I chose to primarily visualize the relationship between player rating and salary, and to include additional information on the player's country of origin and draft round pick. I plotted salary and rating on the scatter plot, and did not see a signficant linear relationship between player rating and salary. From my personal knowledge, I know that the most skilled NBA players don't always take the highest pay in order to help their team's franchise in acquiring other players. I labeled each scatter plot point with the draft round number and observed that higher rated and higher paid players tend to come from the first round of the NBA draft. Finally, I colored each point with a color linked to their country of origin. Most players that are the highest rated and highest paid are from USA, versus lower rated and lower paid players tend to be from more diverse countries.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/josephlei18/2k20-player_salary-rating/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
